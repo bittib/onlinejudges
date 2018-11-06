@@ -19,7 +19,7 @@ public class Solution {
         return d[0][0];
     }
 
-    // Time Complexity: O(N^2), Space Complexity: O(N^2)
+    // Time Complexity: O(N^2), Space Complexity: O(N)
     public int mimTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
         int[] d = int[n];
