@@ -1,0 +1,15 @@
+package leetcode.datastructures.bit.LC_371_Sum_Of_Two_Integers;
+
+public class Solution {
+
+    public int getSum(int a, int b) {
+        while ( b != 0) {
+            int carry = a & b;
+            a = a ^ b;
+            b = carry << 1;
+        }
+
+        return a;
+    }
+
+}
