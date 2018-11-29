@@ -1,4 +1,4 @@
-package leetcode.datastructures.hash.hard.LC_30_Substring_With_Concatenation_Of_All_Words;
+package leetcode.impl.hard.LC_30_Substring_With_Concatenation_Of_All_Words;
 import java.util.*;
 
 public class Solution {

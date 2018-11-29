@@ -11,7 +11,7 @@ public class Iterative {
         return pow(x, N);
     }
 
-    public double pow(double x, int n) {
+    public double pow(double x, long n) {
         if (n == 0) {
             return 1.0;
         }
